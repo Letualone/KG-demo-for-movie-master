@@ -1,0 +1,9 @@
+d:
+0.
+cd D:\ontology\KG-demo-for-movie-master\jena\apache-jena-3.5.0\bat
+1.
+tdbloader.bat --loc=D:/ontology/KG-demo-for-movie-master/jena/tdb D:\ontology\KG-demo-for-movie-master\kg_demo_movie.nt
+2.
+cd D:\ontology\KG-demo-for-movie-master
+3.
+streamlit run streamlit_app.py --server.enableCORS=true
